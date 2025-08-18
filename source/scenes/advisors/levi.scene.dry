@@ -27,6 +27,6 @@ title: Cooperation with the <span style="color: #700000;">**KPD**</span>
 subtitle: Any cooperation between the parties requires compromise from the <span style="color: #700000;">**KPD**</span> as well as the <span style="color: #c00000;">**SPD**</span>.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer = 0
-on-arrival: advisor_action_timer = 6; left_strength += 5; kpd_relation += 6*(1-dissent); reformist_dissent += 3; communist_coalition += 1 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1
+on-arrival: advisor_action_timer = 0; left_strength += 0; kpd_relation += 20*(1-dissent); reformist_dissent += 0; communist_coalition += 10 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1
 
 Levi attempts to reach out to his former colleagues to dissuade the <span style="color: #700000;">**KPD**</span> from their current extreme <span style="color: #8B0000;">Stalinist</span> path. Some concessions are extracted.
