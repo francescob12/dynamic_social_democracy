@@ -521,7 +521,7 @@ Republican Concentration (<span style="color: #FF6699;" class="tooltip-text" tit
 title: The <span style="color: #c00000;">**SFIO**</span> abandons the <span style="color: #E0B0FF;">**PRRRS**</span> and forms a government with the <span style="color: #700000;">**PCF**</span>!
 subtitle: Cheater.
 unavailable-subtitle: <span style="color: #700000;">PCF</span> + <span style="color: #B22222;">PUP</span> + <span style="color: #F0001C;">SFIO</span> + <span style="color: #FF6699;">PRS</span> ([+ pop_front_france +]%)
-choose-if: pop_front_france >= 50
+choose-if: pop_front_france >= 5
 on-arrival: dataminer_detected = 1
 
 ok.
